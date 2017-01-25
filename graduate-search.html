@@ -126,10 +126,13 @@
                   </li> <!--/.end type list group -->
 
                   <li class="collapsed list-group-item" data-target="#freshness-filters">
-                    <a href="#"> <strong>Freshness </strong>  <span class="caret"></span></a>
+                    <a href="#"> <strong>Publication date </strong>  <span class="caret"></span></a>
 
                     <div id="freshness-filters" class="sub-menu spacialCheckbox-ul">
-                       <input type="date" placeholder="MM/YYYY" style="width: 140px"/>
+                      <label for="datefrom">From</label>
+                       <input type="date" placeholder="MM/YYYY" style="width: 140px" id="datefrom"/>
+                      <label for="dateto">To</label>
+                      <input type="date" placeholder="MM/YYYY" style="width: 140px" id="dateto"/>
                     </div>
                   </li> <!--/.end type list group -->
               </ul>
